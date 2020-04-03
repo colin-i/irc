@@ -1,4 +1,4 @@
 Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\*\shell\Edit with OA Hex Editor]
 [HKEY_CLASSES_ROOT\*\shell\Edit with OA Hex Editor\command]
-@="\"C:\\Users\\eu\\Desktop\\hex editor\\hexeditor.exe\" \"%1\""
+@="\"C:\\Users\\eu\\Desktop\\irc\\hex editor\\hexeditor.exe\" \"%1\""
