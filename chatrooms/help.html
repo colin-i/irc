@@ -1,0 +1,130 @@
+
+
+<html>
+<head></head>
+<body>
+<h1>OIRC Chat Rooms</h1>
+
+<h3>Contents</h3>
+<h4><a href="#intro">1. Intro</a></h4>
+<h4><a href="#use">2. Using the program</a></h4>
+<h4><a href="#contact">3. Contact</a></h4>
+
+<br><br>
+
+<p><h4><a name="intro">1. Intro</a></h4>
+Chatrooms is a irc chat client and it includes a videochat with sound program.
+Connect to a irc server from the popular irc servers list or by ip and port
+and join or create channels and talk with users. The videochat program works between two users, one is the host and other one is the client.
+</p>
+
+<br><br>
+
+<p><h4><a name="use">2. Using the program</a></h4></p>
+<p>The buttons bar has the following buttons: Join, Profil & Preferences, Videochat(described below), Help(this file) and Exit the program</p>
+
+<p>
+<b>Join IRC Host</b><br>
+Join the IRC host window. The window has the following fields:<br>
+Host - the host address (e.g.: domain.subdomain.net or a raw ip,127.0.0.1)<br>
+Port first try - the host port first to try<br>
+Port last try - the host port last to try (If "last try" is omitted then only the first try is used. Examples: 6660-6669 or 6666-6660)<br>
+OK - to proceed<br>
+Popular hosts - is a list of most used hosts<br>
+Refresh - update the list from the server<br>
+<br>
+The IRC window is described below.<br>
+More servers can be found at the following lists:<br>
+EFnet: http://www.efnet.org/?module=servers<br>
+Undernet: http://www.undernet.org/servers.php<br>
+IRCnet: http://irc.tu-ilmenau.de/all_servers/<br>
+DALnet: http://www.dal.net/servers/<br>
+QuakeNet: http://www.quakenet.org/servers
+</p>
+
+<br>
+
+<p>
+<b>Profil and Preferences</b><br>
+Profil: Nick, Username, Password, Retype password, Full Name and Invisible mode<br>
+- fields used when connecting to server<br>
+Preferences:<br>
+Check for updates at startup and everyday - updating tool<br>
+Command mode - when this check box is marked the following commands
+will not be transmitted automatically: PASS,NICK,USER;LIST;PONG;PART<br>
+Min users/channel - when LIST is invoked, the channels with less than this number will be ignored<br>
+Ignore - leads to a window with an edit field with comma separated values representing ignored users
+</p>
+
+<br>
+
+<p>
+<b>IRC Window</b><br>
+The IRC window components(controls/windows): text, list, input, tabs, exit button.<br>
+Text window - where the text is displayed<br>
+List window - at the main tab it has the channels and at the channel tab it has the users;
+the right click on a channel gives a context menu with the command to join the channel
+and on a user with a command to chat with that user.<br>
+Input edit control - at the main tab sends raw messages; at a channel tab sends PRIVMSG channel message; at a user tab sends PRIVMSG user message<br>
+Tabs bar - all IRC window tabs (main tab:@;channels;users) and the scroll left and right buttons when there are tabs that doesn't fit into the window; 
+when a tab receives a message and the tab isn't selected then the tab is highlighted and if the tab does not fit into the window
+then in the upper left corner a message appears: unread message(s)(left or right)<br>
+<ul><li>
+When right clicking on a tab a context menu appears with 3 options: Move tab to First place - moves the tab at the 0 index; 
+Move tab to Last place; Close tab - at the main tab it closes the irc window; at the channel tab
+it closes the channel and if command mode isn't checked it sends a "PART channel" message; at the user tab it closes the user window
+</li></ul>
+Exit - closes the IRC window and disregards any pending incoming message
+</p>
+
+<br>
+
+<p>
+<b>Keyboard</b><br>
+F5 - set/remove the display kicks/quits option (default: on)<br>
+F6 - set/remove the display list replays(322) option (default: on)
+F7 - clears the text window screen
+</p>
+
+<br>
+
+<p>
+<b>Videochat tool</b><br>
+The main options: Start camera, Host the connection; Start camera, Join a host; Join a host. The Sound and Video configurations and the start button<br>
+Sound:<br>
+- Sound In - select an input sound source<br>
+- Format - the available sound formats for that source<br>
+- Sound Out - where the incoming sound is played<br>
+Video:<br>
+- the following field is available: Send outgoing camera images between the following time intervals. (This may skip the outgoing send action for some frames)<br>
+- some users want to test the program on the same computer and this option may help<br>
+Start camera:<br>
+- When starting the camera a window with the Video Sources appears for selecting the camera<br>
+- It may be required to allow a firewall message because the host binds to a port<br>
+- Following windows: the camera window and the information message<br>
+- The information window has the ip and port fields and the following message: The host cam is connected. The client cam must enter the host ip and port to connect. The following host ip may not be the required ip if it is a secondary ip (e.g.: Router IP, LAN IP). The Internet Service Provider, if applicable, could say the real ip.<br>
+Join a host:<br>
+- Has a window where the host ip and port are required<br>
+When the client tries to connect the host receive a message to accept or not.<br>
+The incoming stream window appears with the Sound Panel.<br>
+Sound Panel:<br>
+- Outgoing sound(usable with "Start camera") - when checked the sound is send<br>
+- Incoming sound(usable when receiving stream) - when checked the incoming sound is played<br>
+- Receiving sound - Yes or No<br>
+- Skip a sound part when the sound delays and the image does not<br>
+- The parts counter - A sound part is a buffer that has a second to be played; when there are two ore more buffers in queue the sound may be delayed and
+ by checking this the queue is equalized to less than two parts
+</p>
+
+<br><br>
+
+<p><a name="contact"></a>
+<h4>3. Contact</h4>
+<a href='http://oa.netau.net/programs'>oapplications</a><br>
+Write anything about the program at:<br>
+<a href="mailto:costin.botescu@gmail.com">costin.botescu@gmail.com</a>
+</p>
+
+
+</body>
+</html>

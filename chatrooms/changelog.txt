@@ -1,0 +1,5 @@
+IRC Chat Rooms v1.000009 - July 24, 2012
+-Security update
+
+IRC Chat Rooms v1.0 - July 6, 2012
+-Release date

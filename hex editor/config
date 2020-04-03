@@ -1,0 +1,14 @@
+Background=#FFFFEE
+Header Text=#007700
+Text=#000000
+Mod Text=#FF0000
+Caret=#DEDEFF
+Pending Caret=#BCBCFF
+Selection=#DDFFFF
+Sel Dragger=#00FF00
+Borders=#000000
+Row 1 Left=#F6FFFF
+Row 2 Left=#FFFFFF
+Row 1 Right=#F8FFFF
+Row 2 Right=#FFFFFF
+Undo-Redo removed when saving warning=0

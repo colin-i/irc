@@ -1,0 +1,10 @@
+
+Hex Editor v1.9999 - May 31, 2012
+-Security update
+
+Hex Editor v1.9994 - April 24, 2012
+-Security update
+-Minor improvements
+
+Hex Editor v1.0 - March 6, 2012
+-Release date
