@@ -1,4 +1,4 @@
-Supported project: [https://github.com/colin-i/irc-ssl/releases](https://github.com/colin-i/irc-ssl/releases)
+Supported project: [https://github.com/colin-i/irc-ssl](https://github.com/colin-i/irc-ssl)
 
 ## Donations
 The *donations* section is here
