@@ -1,0 +1,8 @@
+
+~/w irc && \
+xxd "hex editor/hexeditor.exe" dump/hexeditor.exe && \
+b=( chatrooms.exe videochat.exe oapp_com.dll upd.exe oupd.exe chat_res.dll ) && \
+for var in "${b[@]}"; do
+	xxd chatrooms/${var} dump/${var} || exit 1
+done && \
+~/test/bots/sync
