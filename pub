@@ -6,3 +6,7 @@ for var in "${b[@]}"; do
 	xxd chatrooms/${var} dump/${var} || exit 1
 done && \
 ~/test/bots/sync
+
+#objdump -x chatrooms.exe
+#is same as
+#objdump -xtr chatrooms.exe
