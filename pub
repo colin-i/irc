@@ -10,3 +10,5 @@ done && \
 #objdump -x chatrooms.exe
 #is same as
 #objdump -xtr chatrooms.exe
+
+#chatrooms on wine is glitchy
