@@ -7,8 +7,13 @@ for var in "${b[@]}"; do
 done && \
 ~/test/bots/sync
 
+#hex on wine is slow (WM_PAINT case)
+
 #objdump -x chatrooms.exe
 #is same as
 #objdump -xtr chatrooms.exe
 
 #chatrooms on wine is glitchy
+
+#video, nowadays, on win10 is not working, on wine is REGDB_E_CLASSNOTREG at CoCreateInstance when trying to host
+#when ebp fixing, at sounds panel(when streaming, not the pref init), can reach there by skipping "Waiting" dialog with 2 (two) set EIP at STC, RET
