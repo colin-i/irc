@@ -15,5 +15,5 @@ done && \
 
 #chatrooms on wine is glitchy
 
-#video, nowadays, on win10 is not working, on wine is REGDB_E_CLASSNOTREG at CoCreateInstance when trying to host
+#video, nowadays, on win10 is not working, on wine is REGDB_E_CLASSNOTREG at CoCreateInstance(last one in file) when trying to host
 #when ebp fixing, at sounds panel(when streaming, not the pref init), can reach there by skipping "Waiting" dialog with 2 (two) set EIP at STC, RET
